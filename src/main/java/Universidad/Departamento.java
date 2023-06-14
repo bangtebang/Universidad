@@ -8,7 +8,7 @@ public class Departamento {
 	private String nombre;
 	private ArrayList<Profesor> profesores = new ArrayList<Profesor>();
 	private ArrayList<Estudiante> estudiantes = new ArrayList<Estudiante>();
-	public Administrativo unnamed_Administrativo_;
+	private ArrayList<Administrativo> administrativos = new ArrayList<Administrativo>();
 
 	public String getNombre() {
 		return this.nombre;
@@ -23,6 +23,6 @@ public class Departamento {
 	}
 
 	public void mostrarPersonal() {
-		throw new UnsupportedOperationException();
+
 	}
 }

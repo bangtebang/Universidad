@@ -6,7 +6,7 @@ import Universidad.Estudiante;
 public class Asignatura {
 	private String codigoAsignatura;
 	private String nombre;
-	private Profesor profesor;
+	private ArrayList<Profesor> profesores = new ArrayList<Profesor>();
 	private ArrayList<Estudiante> estudiantes = new ArrayList<Estudiante>();
 
 	public String getCodigoAsignatura() {
@@ -30,11 +30,21 @@ public class Asignatura {
 		this.nombre=nombre;
 	}
 
-	public void buscarEstudiantes() {
-		throw new UnsupportedOperationException();
+	public Estudiante buscarEstudiantes(String nombre,String run,String estadoCivil,String carrera,int anoIngreso) {
+		for (Estudiante estudiante : estudiantes) {
+			if (estudiante.getNombre().equals(nombre) && estudiante.getRun().equals(run) &&estudiante.getEstadoCivil().equals(estadoCivil)&&estudiante.getCarrera().equals(carrera)&&estudiante.getAnoIngreso()==(anoIngreso)) {
+				return estudiante;
+			}
+		}
+		return null;
 	}
 
-	public void buscarProfesor() {
-		throw new UnsupportedOperationException();
+	public Profesor buscarProfesor(String nombre,String run,String estadoCivil,int anoIncorporacion) {
+		for (Profesor profesor : profesores) {
+			if (profesor.getNombre().equals(nombre)&&profesor.getRun().equals(run) &&profesor.getEstadoCivil().equals(estadoCivil)&&profesor.getAnoIncorporacion()==(anoIncorporacion)) {
+				return profesor;
+			}
+		}
+		return null;
 	}
 }
