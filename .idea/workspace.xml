@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3115f699-e213-4382-b139-51cf60e81519" name="Changes" comment="subo corregido y con operaciones de buscar profesor y buscar alumno">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Universidad/Asignatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Universidad/Asignatura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Universidad/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Universidad/Departamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Universidad/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Universidad/Estudiante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Universidad/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Universidad/Profesor.java" afterDir="false" />
-    </list>
+    <list default="true" id="3115f699-e213-4382-b139-51cf60e81519" name="Changes" comment="subo corregido y con metodos faltantes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,13 +93,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686773364524</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="subo corregido y con metodos faltantes">
+      <created>1687130889175</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687130889175</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="subo el main" />
     <MESSAGE value="subo clases creadas con vp y constructores" />
     <MESSAGE value="subo corregido y con operaciones de buscar profesor y buscar alumno" />
-    <option name="LAST_COMMIT_MESSAGE" value="subo corregido y con operaciones de buscar profesor y buscar alumno" />
+    <MESSAGE value="subo corregido y con metodos faltantes" />
+    <option name="LAST_COMMIT_MESSAGE" value="subo corregido y con metodos faltantes" />
   </component>
 </project>
