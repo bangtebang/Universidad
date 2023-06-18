@@ -30,7 +30,7 @@ public class Asignatura {
 		this.nombre=nombre;
 	}
 
-	public Estudiante buscarEstudiantes(String nombre,String run,String estadoCivil,String carrera,int anoIngreso) {
+	public Estudiante buscarEstudiantesAsignatura(String nombre,String run,String estadoCivil,String carrera,int anoIngreso) {
 		for (Estudiante estudiante : estudiantes) {
 			if (estudiante.getNombre().equals(nombre) && estudiante.getRun().equals(run) &&estudiante.getEstadoCivil().equals(estadoCivil)&&estudiante.getCarrera().equals(carrera)&&estudiante.getAnoIngreso()==(anoIngreso)) {
 				return estudiante;
@@ -39,7 +39,7 @@ public class Asignatura {
 		return null;
 	}
 
-	public Profesor buscarProfesor(String nombre,String run,String estadoCivil,int anoIncorporacion) {
+	public Profesor buscarProfesoresAsignatura(String nombre,String run,String estadoCivil,int anoIncorporacion) {
 		for (Profesor profesor : profesores) {
 			if (profesor.getNombre().equals(nombre)&&profesor.getRun().equals(run) &&profesor.getEstadoCivil().equals(estadoCivil)&&profesor.getAnoIncorporacion()==(anoIncorporacion)) {
 				return profesor;
